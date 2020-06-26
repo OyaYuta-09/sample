@@ -94,7 +94,24 @@ try {
                 
             </div>
             <div class="tab-pane" id="insert">
-                <p>sample tabs2</p>
+                <form action="./insert.php">
+                    <div class="form-group row">
+                        <label for="id" class="col-sm-2 col-form-label">ID</label>
+                        <div class="col-sm-10">
+                             <input type="text" class="form-control" id="id" name="id">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="age" class="col-sm-2 col-form-label">Age</label>
+                        <div class="col-sm-10">
+                             <input type="text" class="form-control" id="age" name="age">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn block">Insert</button>
+                    </div>
+
+                </form>
             </div>
             <div class="tab-pane" id="update">
                 <p>sample tabs3</p>
