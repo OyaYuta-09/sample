@@ -94,7 +94,7 @@ try {
                 
             </div>
             <div class="tab-pane" id="insert">
-                <form action="./insert.php">
+                <form action="./insert.php" method="POST">
                     <div class="form-group row">
                         <label for="id" class="col-sm-2 col-form-label">ID</label>
                         <div class="col-sm-10">
