@@ -47,16 +47,16 @@ try {
      <div class="container">
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a href="#select" class="nav-link active" data-toggle="tab">sample</a>
+                <a href="#select" class="nav-link active" data-toggle="tab">select[一覧]</a>
             </li>
             <li class="nav-item">
-                <a href="#insert" class="nav-link" data-toggle="tab">sample</a>
+                <a href="#insert" class="nav-link" data-toggle="tab">insert[追加]</a>
             </li>
             <li class="nav-item">
-                <a href="#update" class="nav-link" data-toggle="tab">SAMPLE</a>
+                <a href="#update" class="nav-link" data-toggle="tab">update[更新]</a>
             </li>
             <li class="nav-item">
-                <a href="#delete" class="nav-link" data-toggle="tab">sam</a>
+                <a href="#delete" class="nav-link" data-toggle="tab">delete[削除]</a>
             </li>
         </ul>
 
